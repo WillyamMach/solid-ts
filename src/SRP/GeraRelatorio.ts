@@ -15,6 +15,7 @@ export class GeraRelatorio {
                 salario: this.SalarioService.calcular(colaborador.cargo),
             })
         })
+        
         return JSON.stringify(relatorio)
     };
 }
