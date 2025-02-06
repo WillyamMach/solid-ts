@@ -11,7 +11,7 @@
       "OCP":"npx tsc src/OCP/main.ts --outDir src/OCP/dist && node src/OCP/dist/main.js",
       "LISKOV":"npx tsc src/LISKOV/main.ts --outDir src/LISKOV/dist && node src/LISKOV/dist/main.js",
       "ISP":"npx tsc src/ISP/main.ts --outDir src/ISP/dist && node src/ISP/dist/main.js",
-      "tarefa-5":"npx tsc tarefa-5/main.ts --outDir tarefa-5/dist && node tarefa-5/dist/main.js"
+      "DIP":"npx tsc src/DIP/main.ts --outDir src/DIP/dist && node src/DIP/dist/main.js"
     },
     "dependencies": {
       "typescript": "^5.3.2"
