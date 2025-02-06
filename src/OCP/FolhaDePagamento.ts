@@ -1,4 +1,3 @@
-
 import { ContratoRemuneravel } from "./Funcionario";
 
 export class FolhaDePagamento  {

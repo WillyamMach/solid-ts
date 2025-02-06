@@ -1,4 +1,3 @@
-import { Funcionario } from "./interfaces/Funcionario.interface";
 import { FuncionarioEfetivo } from "./interfaces/FuncionarioEfetivo.interface";
 
 export class FuncionarioVoluntario implements FuncionarioVoluntario{
@@ -12,11 +11,11 @@ export class FuncionarioVoluntario implements FuncionarioVoluntario{
         this.orientador = orientador;
     }
 
-    escreveRelatorio(): void {
-        console.log(`Me chamo ${this.nome} e eu escrevo relatórios para o meu orientador ${this.orientador.nome}`);
+    escreveRelatorio(): string {
+        return `Me chamo ${this.nome} e eu escrevo relatórios para o meu orientador ${this.orientador.nome}`;
     }
 
-    trabalha(): void {
-        console.log(`Me chamo ${this.nome} e eu pesquiso ${this.cargaHorariaExtensao} horas por semana para cumprir na minha graduação`);
+    trabalha(): string {
+        return `Me chamo ${this.nome} e eu pesquiso ${this.cargaHorariaExtensao} horas por semana para cumprir na minha graduação`;
     }
 }
